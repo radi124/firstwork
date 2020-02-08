@@ -1,0 +1,46 @@
+body
+{background-color: rgb(41, 39, 39);
+
+}
+#container
+{
+    widows: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+#top
+{
+    background-color:white;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+    color :black;
+    word-spacing: 1cm;
+}
+#middle
+{
+    height:450px;
+    background-color: yellow;
+
+}
+#secondmiddle
+{
+    height:550px;
+    background-color:black;
+
+}
+#bottom
+{
+    height:300px;
+    background-color: yellow;
+
+}
+#botside
+{
+    height:50px;
+    background-color: black;
+
+}
