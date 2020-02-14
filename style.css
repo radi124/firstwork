@@ -74,18 +74,12 @@ margin:0 !important;
         border-right: 1px solid WHITE;
         text-align: center;
         color :black;
+    }
+    button
+    {
+        background-color: yellow;
+        position: absolute;left:45%;
+
+    }
         
-
-
-    }
-    #gz
-    {
-        background-image:url(plaza.jpg) ;
-
-    }
-    #bg
-    {
-        background-image:url(łezka.jpg);
-
-    }
    
