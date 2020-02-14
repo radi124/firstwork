@@ -1,28 +1,30 @@
 body
 {background-color: rgb(41, 39, 39);
-
+margin:0 !important;
 }
+
+
 #container
 {
-    widows: 1000px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 250px;
     padding-right: 250px;
 
+
 }
 #top
 {
     background-color:white;
-    height: 50px;
-    font-weight: bold;
-    font-size: large;
-    color :black;
-    word-spacing: 1cm;
+    padding:10px 0;
+    text-align: center;
+    
+    
 }
 #middle
 {
-    height:450px;
+    height:460px;
     background-color: yellow;
 
 }
@@ -34,7 +36,7 @@ body
 }
 #bottom
 {
-    height:300px;
+    height:290px;
     background-color: yellow;
 
 }
@@ -44,3 +46,46 @@ body
     background-color: black;
 
 }
+#lezkaa
+{   
+    height: 45px;
+    width: 100;
+
+    
+}
+
+   
+    ol
+    {
+        padding:0;
+        margin:0;
+        list-style-type: none;
+        font-size: 15px;
+        line-height: 200%;
+        height: 35px;
+        
+    }
+    ol a
+    {
+        text-decoration: none;
+        display: block;
+        float: left;
+        width:  80px; 
+        border-right: 1px solid WHITE;
+        text-align: center;
+        color :black;
+        
+
+
+    }
+    #gz
+    {
+        background-image:url(plaza.jpg) ;
+
+    }
+    #bg
+    {
+        background-image:url(łezka.jpg);
+
+    }
+   
