@@ -1,85 +1,72 @@
-body
-{background-color: rgb(41, 39, 39);
-margin:0 !important;
+body {
+  background-color: #fff;
+  margin: 0 !important;
 }
 
-
-#container
-{
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 250px;
-    padding-right: 250px;
-
-
+#container {
+  widows: 100vw;
 }
-#top
-{
-    background-color:white;
-    padding:10px 0;
-    text-align: center;
-    
-    
+#nav {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-#middle
-{
-    height:460px;
-    background-color: yellow;
-
+#pict {
 }
-#secondmiddle
-{
-    height:550px;
-    background-color:black;
-
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
 }
-#bottom
-{
-    height:290px;
-    background-color: yellow;
-
+#logo {
+  height: 100%;
+  width: 80px;
 }
-#botside
-{
-    height:50px;
-    background-color: black;
-
+.navElement {
+  padding-right: 5px;
+  padding-left: 5px;
 }
-#lezkaa
-{   
-    height: 45px;
-    width: 100;
-
-    
+#bPict {
+  width: 100%;
+  height: 600px 500px;
+  background-image: url(plaza.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-
-   
-    ol
-    {
-        padding:0;
-        margin:0;
-        list-style-type: none;
-        font-size: 15px;
-        line-height: 200%;
-        height: 35px;
-        
-    }
-    ol a
-    {
-        text-decoration: none;
-        display: block;
-        float: left;
-        width:  80px; 
-        border-right: 1px solid WHITE;
-        text-align: center;
-        color :black;
-    }
-    button
-    {
-        background-color: yellow;
-        position: absolute;left:45%;
-
-    }
-        
-   
+#bigLogo {
+  height: 440px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#butt {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#words {
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  display: ;
+  justify-content: center;
+  color: white;
+}
+#bottomline {
+  border-bottom: 1px solid grey;
+  margin-left: 20%;
+  margin-right: 20%;
+}
