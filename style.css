@@ -32,41 +32,72 @@ body {
   padding-left: 5px;
 }
 #bPict {
-  width: 100%;
-  height: 600px 500px;
+  height: 600px;
   background-image: url(plaza.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 #bigLogo {
-  height: 440px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  max-height: 450px;
+  max-width: 450px;
+  margin-top: -80px;
 }
 #butt {
-  width: 100%;
-  height: 60px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  margin-top: -20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0px 0px 10px 2px #ddd;
+  border: none;
+  background: rgba(255, 185, 64);
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
 }
+#butt:hover {
+  background-color: rgb(201, 139, 32);
+  cursor: pointer;
+}
+
 #words {
-  background-color: black;
-  height: 500px;
-  width: 100%;
-  display: ;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  color: white;
+  align-items: center;
 }
-#bottomline {
-  border-bottom: 1px solid grey;
-  margin-left: 20%;
-  margin-right: 20%;
+#description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: rgba(255, 185, 64);
+}
+#lorem {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+#but {
+  margin-top: 0px;
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0px 0px 3px -1px #ddd;
+  border: none;
+  background: rgba(255, 185, 64);
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
+#cars {
 }
