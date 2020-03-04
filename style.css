@@ -139,7 +139,7 @@ h1 {
   width: 100%;
 }
 #secondHeader {
-  margin-bottom: -1px;
+  margin-bottom: 28px;
   margin-top: 1px;
   color: rgba(255, 185, 64);
   font-size: 22px;
@@ -156,6 +156,9 @@ h1 {
   color: rgba(255, 185, 64);
   align-items: center;
   margin-bottom: -54px;
+}
+h3 {
+  color: rgba(255, 185, 64);
 }
 #contact {
   width: 100%;
