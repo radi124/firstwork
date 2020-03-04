@@ -138,12 +138,6 @@ h1 {
   height: 170px;
   width: 100%;
 }
-#secondHeader {
-  margin-bottom: 28px;
-  margin-top: 1px;
-  color: rgba(255, 185, 64);
-  font-size: 22px;
-}
 
 #text {
   color: #fff;
